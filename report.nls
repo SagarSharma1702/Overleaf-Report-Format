@@ -1,0 +1,13 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{DCS}]\begingroup Dataflow connections\nomeqref {0}
+		\nompageref{ii}
+  \item [{EXEMPLAR}]\begingroup EXEcutable exaMPLes ARchive\nomeqref {0}
+		\nompageref{ii}
+  \item [{RAS}]\begingroup Relevant API calls\nomeqref {0}
+		\nompageref{ii}
+  \item [{WOS}]\begingroup Word occurrences\nomeqref {0}\nompageref{ii}
+
+\end{thenomenclature}

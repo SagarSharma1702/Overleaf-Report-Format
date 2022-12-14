@@ -1,0 +1,17 @@
+\section{System Architecture}
+This section includes high level overview of system including references to the items covered in System Architecture Document - SAD, and interfaces to other items such as hardware, peripherals and systems integration. If the hardware design is following architectural standards and buses, these are to be included here.
+
+
+\subsection{Software Architecture}
+This section outlines the software architecture established for the project. Provide references to the System Architecture Document and a brief summary of the software architectures.
+
+\subsection{Hardware Architectures}
+This section outlines the hardware architecture established for the project. The platforms, networks, peripherals and hardware integration should be summarized.
+
+
+\section{Database Design}
+
+
+\section{Mathematical Modeling and algorithm}
+
+ 

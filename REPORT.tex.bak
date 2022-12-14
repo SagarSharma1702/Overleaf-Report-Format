@@ -1,0 +1,146 @@
+\documentclass{SNJB}
+\usepackage{makeidx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{%
+  babel,
+  algorithmic,
+  algorithm,
+  caption
+}
+
+\usepackage{url}
+\usepackage[breaklinks=true]{hyperref}
+
+\usepackage[]{nomencl}
+\renewcommand{\nomname}{Abbreviations}
+\makenomenclature
+
+\makeindex
+
+\begin{document}
+
+
+
+\title{Discovering Traffic Bottlenecks he devices by using Services}
+\author{Rohit Pawar}
+
+\newauthor{Rohit}
+
+\new{Rohit \hspace{1.5cm} B80418503}
+
+\dept{Department of Information Technology }
+\supervisor{Prof. R. U. Pawar}
+\submitdate{April, 2014- 15}
+\degree{Bachelor of Engineering}
+\specialization{Information Technology}
+\type{Seminar Report}
+%\type{Seminar}
+\hod{Prof. P. R. Bhaladhare}
+\principal{Prof. J. J. Chopade}
+
+\beforepreface
+
+%\end{tabular}
+
+\titleformat{\chapter}[display]
+{\centering\normalfont\huge\bfseries}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+
+\thisfancyput(-0.0in,-10.0in){%
+	%\thisfancypage{%
+%\setlength{\fboxrule}{1pt}\doublebox}{}
+\setlength{\unitlength}{1in}\framebox(6.9,10.4)}
+
+\prefacesection{Acknowledgement}
+%\input{acknowledgement}
+I would like to acknowledge all the people who have been of the help and assisted me throughout my project work.
+	First of all I would like to thank my respected guide @\supervisor, Professor in Department of Computer Engineering for introducing me throughout features needed. The time-to-time guidance, encouragement, and valuable suggestions received from him are unforgettable in my life. This work would not have been possible without the enthusiastic response, insight, and new ideas from her.\\
+\hspace*{0.7in}I am also grateful to all the faculty members of SNJB's College of Engineering for their support and cooperation.\\
+\hspace*{0.7in}I would like to thank my lovely parents for time-to-time support and encouragement and valuable suggestions, and thank my friends for their valuable support and encouragement.\\
+\hspace*{0.7in}The acknowledgement would be incomplete without mention of the blessing of the Almighty, which helped me in keeping high moral during most difficult period.
+
+\acknowledgeauthor
+
+
+\prefacesection{Abstract}
+\emph{Searching for applications that are highly relevant to development tasks is challenging because the high-level intent reflected in the descriptions of these tasks doesn't usually match the low-level implementation details of applications . To reduce this mismatch we see an approach called EXEcutable exaMPLes ARchive (Exemplar)~\nomenclature{EXEMPLAR}{EXEcutable exaMPLes ARchive} for finding highly relevant software projects from large archives of applications.  Exemplar takes natural-language query that contains high-level concepts (e.g. MIME, data sets) as input, then uses information retrieval and program analysis techniques to retrieve applications that implement these concepts. For getting highly relevant application Exemplar ranks applications in three ways. First, consider the descriptions of applications. Second, examine the Application Programming Interface (API) calls used by applications. Third, analyze the dataflow among those API calls. Mainly Ranking mechanism also works in three ways 1) A component that computes a score based on word occurrences in project descriptions (WOS)~\nomenclature{WOS}{Word occurrences}, 2) A component that computes a score based on the relevant API calls (RAS)~\nomenclature{RAS}{Relevant API calls} and 3) A component that computes a score based on dataflow connections between these calls (DCS)~\nomenclature{DCS}{Dataflow connections}. The total ranking score is the weighted sum of these three ranking scores.}
+
+
+
+% Use following command at the command prompt to display the Abbreviations
+% makeindex report.nlo -s nomencl.ist -o report.nls
+
+\newpage
+%\addcontentsline{toc}{chapter}{List of Abbreviations}
+\printnomenclature
+\newpage
+\afterpreface
+
+\listoftables
+
+\listoffigures
+%\input{glossary}
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{plain}
+
+
+\pagestyle{fancy}
+
+
+
+
+\titleformat{\chapter}[display]
+{\flushright\normalfont\huge\bfseries}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+
+
+\chapter{Introduction}
+\input{./intro}
+
+\chapter{Literature Survey}
+\input{./lits}
+
+\chapter{Details of analytic work}
+\input{./meth}
+
+\chapter{Details of Experimental work }
+\input{./srs}
+%\newpage
+
+
+
+\chapter{Conclusion }
+\input{./conclusion}
+
+\titleformat{\chapter}[display]
+{\centering\normalfont\huge\bfseries}
+{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+%\prefacesection{Conclusion }
+%\chapter{Conclusion}
+%\input{./conclusion}
+%%%%%\appendix
+%\input{appendix}
+
+
+
+
+%\nocite{*}
+\bibliographystyle{IEEEtran}
+\bibliography{ref1}
+
+
+%Use following command at the command prompt to display the Index
+% makeindex thesis
+%%%%%\newpage
+%%%%%\addcontentsline{toc}{chapter}{Index}
+%%%%%\printindex
+
+\end{document}

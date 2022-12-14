@@ -1,0 +1,88 @@
+
+
+@INPROCEEDINGS{1,
+author={Tung-Ming Koo and Hung-Chang Chang and Guo-Quan Wei},
+title={Construction P2P firewall HTTP-Botnet defense mechanism},
+booktitle={IEEE International Conference on Computer Science and Automation Engineering},
+year={2011},
+volume={1},
+pages={33-39},
+month = {Aug},
+}
+@INPROCEEDINGS{2,
+author={Hyunsang Choi and Hanwoo Lee and Heejo Lee and Hyogon Kim},
+title={Botnet Detection by Monitoring Group Activities in DNS Traffic},
+booktitle={7th IEEE International Conference on Computer and Information Technology},
+year={2007},
+pages={715-720},
+month{oct},
+}
+
+@inproceedings{3,
+ author = {Choi, Hyunsang and Lee, Heejo and Kim, Hyogon},
+ title = {BotGAD: detecting botnets by capturing group activities in network traffic},
+ booktitle = {Proceedings of the Fourth International ICST Conference on Communication System Software and Middleware},
+ year = {2009},
+ pages = {1-8},
+ month={oct},
+}
+@inproceedings{4,
+  AUTHOR =       {Govil and G.Jivika},
+  TITLE =        {Criminology of BotNets and their detection and defense methods},
+  booktitle =     {IEEE International Conference on Electro-Information Technology},
+  YEAR =         {2007},
+  pages=         {215-220},
+  month=          {sept},
+}
+@BOOK{5,
+  AUTHOR =       {Craig A and Jim Binkley and David Harley},
+  TITLE =        {Botnets: THE KILLER WEB APP},
+  PUBLISHER =    {SYNGRESS},
+  YEAR =         {2007},
+}
+@ARTICLE{6,
+  AUTHOR =       {M. Tariq Banday and Jameel A. Qadri and Nisar A. Shah},
+  TITLE =        {Study of Botnets and Their Threats to Internet Security},
+ JOURNAL=        {Sprouts: Working Papers on Information Systems},
+  year=          {2009},
+  pages=         {9-24},
+  url=           {http://sprouts.aisnet.org/9-24},
+}
+@INPROCEEDINGS{7,
+author={Ping Wang and Lei Wu and Aslam, B. and Zou, C.C.},
+title={A Systematic Study on Peer-to-Peer Botnets},
+booktitle={Proceedings of 18th IEEE International Conference on Computer Communications and Networks},
+year={2009},
+pages={1-8},
+month= {Aug},
+}
+@inproceedings{8,
+ author = {Guofei Gu and Junjie Zhang and Wenke Lee},
+ title = {BotSniffer:Detecting Botnet Command and Control Channels in Network Traffic},
+ year = {2008},
+ month = {February},
+ booktitle = {Proceedings of the 15th Annual Network and Distributed System Security Symposium},
+ }
+
+@ARTICLE{9,
+  AUTHOR =       {Jose Nazario},
+  TITLE =        {BlackEnergy DDoS Bot Analysis},
+  JOURNAL =      {Arbor Networks},
+  YEAR =         {2007},
+  month=         {oct},
+}
+
+@book{10,
+  title={Virtual honeypots: from botnet tracking to intrusion detection},
+  author={Provos, Niels and Holz, Thorsten},
+  publisher={Addison-Wesley Professional},
+  year={2007},
+}
+
+
+@book{11,
+  title={SNJB from botnet tracking to intrusion detection},
+  author={Provos, Niels and Holz, Thorsten},
+  publisher={Addison-Wesley Professional},
+  year={2007},
+}
